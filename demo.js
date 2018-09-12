@@ -14,12 +14,12 @@ console.log(student1.Serialize());
 var student2 = new s.Student("Dan", 345);
 //console.log(student2.Name + " : " + student2.StudentId);
 console.log(student2.Serialize());
+var myMathStudent = new ms.MathStudent("Matt", 678);
+console.log(myMathStudent.Serialize());
 var myClass = { Seats: 5, StudentCount: 4 };
 //console.log("Class Room Stat: " + myClass.StudentCount + "/" + myClass.Seats)
 var serializedClassRoom = { Seats: myClass.Seats, StudentCount: myClass.StudentCount };
 console.log(serializedClassRoom);
-var myMathStudent = new ms.MathStudent("Matt", 678);
-console.log(myMathStudent.Serialize());
 //foo = 123;
 //declare var foo: any;
 //foo = 123;
