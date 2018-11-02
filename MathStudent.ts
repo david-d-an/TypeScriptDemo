@@ -1,6 +1,7 @@
-import * as s from './Student';
+// import * as s from './Student';
+import {Student} from './Student';
 
-export class MathStudent extends s.Student {
+export class MathStudent extends Student {
     constructor(name?: string, studentId?: number){
         super(name, studentId);
     }
@@ -8,3 +9,4 @@ export class MathStudent extends s.Student {
         return super.Serialize();
     }
 }
+
